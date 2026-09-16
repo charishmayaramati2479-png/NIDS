@@ -1,0 +1,40 @@
+﻿# Virtual Environment - NEVER push this!
+nids_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files
+data/raw/
+data/processed/
+*.csv
+
+# Model files (optional, can be regenerated)
+*.pkl
+models/*.pkl
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# Configuration with secrets
+config/alerts.json
+*.env
+.env
+
+# Reports
+*.pdf
+*.html

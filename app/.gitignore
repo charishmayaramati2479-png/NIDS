@@ -1,0 +1,45 @@
+cd C:\Users\chari\NIDS-project
+@"
+# Virtual environments
+nids_env/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & models
+data/
+datasets/
+*.csv
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+*.zip
+*.tar.gz
+*.rar
+models/
+outputs/
+logs/
+
+# Env & secrets
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
